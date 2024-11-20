@@ -190,4 +190,3 @@ if company_name and company_name in data['Name'].values:
     st.dataframe(same_category_companies[['Name', 'Top Level Category', 'Secondary Category', 'Employee Count']])
 else:
     st.warning("Please enter a valid company name to see its similarity results.")
-
